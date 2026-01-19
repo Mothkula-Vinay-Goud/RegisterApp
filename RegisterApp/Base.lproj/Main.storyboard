@@ -55,10 +55,58 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sum"/>
                                 <connections>
-                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ni-La-08S"/>
+                                    <action selector="sumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WxS-69-ntn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sum Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBL-vt-yGm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSD-i5-oWk">
+                                <rect key="frame" x="30" y="563" width="200" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="7Du-WG-NFT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="AMy-aD-cmN"/>
+                                    <constraint firstAttribute="width" constant="200" id="Lgz-ew-ojI"/>
+                                    <constraint firstAttribute="height" constant="50" id="aDm-Jd-GFc"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Divide"/>
+                                <connections>
+                                    <action selector="divisionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xmk-qE-Ajg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQS-xR-PoV">
+                                <rect key="frame" x="30" y="493" width="200" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wp3-pq-oui"/>
+                                    <constraint firstAttribute="width" constant="200" id="hRb-lH-Fq3"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="vzK-kr-pvY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="zE1-b0-G9n"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Multiply"/>
+                                <connections>
+                                    <action selector="multiplyButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0yj-Vf-eof"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prv-B0-6Rc">
+                                <rect key="frame" x="30" y="422" width="200" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="H5h-u0-F3I"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Wmn-2k-HIt"/>
+                                    <constraint firstAttribute="width" constant="200" id="cYZ-8K-h00"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="eIN-Fi-RBM"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Subtract"/>
+                                <connections>
+                                    <action selector="subtractButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyg-g2-YYV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBL-vt-yGm">
                                 <rect key="frame" x="96" y="50" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.82283726940000002" green="0.82663584509999999" blue="0.83803157220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,17 +126,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ge-aU-xnq">
-                                <rect key="frame" x="30" y="431" width="200" height="50"/>
+                                <rect key="frame" x="30" y="652" width="200" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="C9j-dt-CMQ"/>
-                                    <constraint firstAttribute="width" constant="200" id="Q1J-z0-ken"/>
+                                    <constraint firstAttribute="height" constant="50" id="0bf-rh-Kyv"/>
+                                    <constraint firstAttribute="width" constant="200" id="jb8-6h-uui"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Clear"/>
                                 <connections>
-                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g2u-wk-HNu"/>
                                     <action selector="clearClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BpM-B1-RIJ"/>
                                 </connections>
                             </button>
@@ -99,26 +146,36 @@
                             <constraint firstItem="i88-Nq-wBh" firstAttribute="leading" secondItem="zhC-sd-ejp" secondAttribute="trailing" constant="31" id="0Jn-c8-sao"/>
                             <constraint firstItem="HNB-gx-Zgk" firstAttribute="top" secondItem="zhC-sd-ejp" secondAttribute="bottom" constant="52" id="4Hp-Ga-QbO"/>
                             <constraint firstItem="HNB-gx-Zgk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="7JP-Mw-hLi"/>
+                            <constraint firstItem="gQS-xR-PoV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="7p7-3f-fFY"/>
+                            <constraint firstItem="hSD-i5-oWk" firstAttribute="top" secondItem="gQS-xR-PoV" secondAttribute="bottom" constant="20" id="86m-eX-rIx"/>
+                            <constraint firstItem="prv-B0-6Rc" firstAttribute="top" secondItem="VYe-ZM-biU" secondAttribute="bottom" constant="19" id="BXP-Tu-TyF"/>
                             <constraint firstItem="VYe-ZM-biU" firstAttribute="top" secondItem="HNB-gx-Zgk" secondAttribute="bottom" constant="22" id="Cia-PH-2Da"/>
                             <constraint firstItem="zhC-sd-ejp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Doi-d1-EmP"/>
-                            <constraint firstItem="2Ge-aU-xnq" firstAttribute="top" secondItem="VYe-ZM-biU" secondAttribute="bottom" constant="28" id="GjB-hr-khC"/>
-                            <constraint firstItem="2Ge-aU-xnq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="TIf-HK-SDP"/>
+                            <constraint firstItem="2Ge-aU-xnq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="EaU-ZF-dLq"/>
+                            <constraint firstItem="2Ge-aU-xnq" firstAttribute="top" secondItem="hSD-i5-oWk" secondAttribute="bottom" constant="39" id="K4P-Dy-D93"/>
+                            <constraint firstItem="hSD-i5-oWk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ONG-Zr-Abd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="prv-B0-6Rc" secondAttribute="trailing" constant="30" id="PPa-82-NZ8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQS-xR-PoV" secondAttribute="trailing" constant="30" id="QY2-kQ-ESy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VYe-ZM-biU" secondAttribute="trailing" constant="30" id="UsN-uL-sn2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Ge-aU-xnq" secondAttribute="trailing" constant="30" id="Ux3-8f-FTN"/>
                             <constraint firstItem="zhC-sd-ejp" firstAttribute="top" secondItem="MBL-vt-yGm" secondAttribute="bottom" constant="79" id="Ww1-UA-fLH"/>
                             <constraint firstAttribute="trailing" secondItem="HNB-gx-Zgk" secondAttribute="trailing" constant="30" id="Ze5-Q9-NIr"/>
                             <constraint firstAttribute="trailing" secondItem="Cof-YS-1Q9" secondAttribute="trailing" constant="16" id="Zjs-5o-dkK"/>
                             <constraint firstItem="i88-Nq-wBh" firstAttribute="top" secondItem="MBL-vt-yGm" secondAttribute="bottom" constant="94" id="bDe-4I-cDv"/>
                             <constraint firstItem="Cof-YS-1Q9" firstAttribute="leading" secondItem="i88-Nq-wBh" secondAttribute="trailing" constant="32" id="cbV-Y9-KRH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Ge-aU-xnq" secondAttribute="trailing" constant="30" id="crv-pu-P8P"/>
                             <constraint firstItem="VYe-ZM-biU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dtN-Ue-up9"/>
+                            <constraint firstItem="gQS-xR-PoV" firstAttribute="top" secondItem="prv-B0-6Rc" secondAttribute="bottom" constant="21" id="hZN-dj-6yb"/>
+                            <constraint firstItem="prv-B0-6Rc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="jRf-SN-RAi"/>
                             <constraint firstItem="Cof-YS-1Q9" firstAttribute="top" secondItem="MBL-vt-yGm" secondAttribute="bottom" constant="79" id="lUz-sI-dbB"/>
                             <constraint firstItem="MBL-vt-yGm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="lzH-5f-NPm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hSD-i5-oWk" secondAttribute="trailing" constant="30" id="r7v-xo-Ldk"/>
                             <constraint firstItem="HNB-gx-Zgk" firstAttribute="top" secondItem="i88-Nq-wBh" secondAttribute="bottom" constant="66" id="sMf-nI-oGj"/>
                             <constraint firstAttribute="trailing" secondItem="MBL-vt-yGm" secondAttribute="trailing" constant="97" id="v31-1b-O61"/>
                             <constraint firstItem="MBL-vt-yGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="xh2-NE-JvK"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="calculateSymbol" destination="i88-Nq-wBh" id="Gse-iQ-mav"/>
                         <outlet property="firstNumberTF" destination="zhC-sd-ejp" id="TXn-tQ-J2k"/>
                         <outlet property="resultSum" destination="HNB-gx-Zgk" id="4K5-6U-zwb"/>
                         <outlet property="secondNumberTF" destination="Cof-YS-1Q9" id="aMc-PB-hEc"/>
