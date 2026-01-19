@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84CD4E8D2F1CB9AF00D47735 /* Exceptions for "Calculator" folder in "CalculatorApp" target */ = {
+		84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "CalculatorApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,12 +40,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84CD4E672F1CB9AD00D47735 /* Calculator */ = {
+		84CD4E672F1CB9AD00D47735 /* RegisterApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				84CD4E8D2F1CB9AF00D47735 /* Exceptions for "Calculator" folder in "CalculatorApp" target */,
+				84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "CalculatorApp" target */,
 			);
-			path = Calculator;
+			path = RegisterApp;
 			sourceTree = "<group>";
 		};
 		84CD4E7E2F1CB9AF00D47735 /* RegisterAppTests */ = {
@@ -88,7 +88,7 @@
 		84CD4E5C2F1CB9AD00D47735 = {
 			isa = PBXGroup;
 			children = (
-				84CD4E672F1CB9AD00D47735 /* Calculator */,
+				84CD4E672F1CB9AD00D47735 /* RegisterApp */,
 				84CD4E7E2F1CB9AF00D47735 /* RegisterAppTests */,
 				84CD4E882F1CB9AF00D47735 /* RegisterAppUITests */,
 				84CD4E662F1CB9AD00D47735 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				84CD4E672F1CB9AD00D47735 /* Calculator */,
+				84CD4E672F1CB9AD00D47735 /* RegisterApp */,
 			);
 			name = CalculatorApp;
 			packageProductDependencies = (
