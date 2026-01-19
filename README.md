@@ -1,10 +1,55 @@
+# 📱 Calculator iOS App
+
+A simple and clean **iOS Calculator application** built using **Swift and UIKit**.  
+The app performs basic arithmetic operations with an intuitive user interface.
 
 ---
 
-## ⚠️ Notes
+## ✨ Features
 
-- Ensure valid numeric input before performing operations.
-- Handle division by zero to avoid runtime errors.
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
+- 🧹 Clear / Reset inputs and result  
+- 📲 Simple and minimal UI  
+- ⌨️ User input via text fields  
+
+---
+
+## 🖼️ App Preview
+
+The app includes:
+- Two input fields for numbers  
+- A result display label  
+- Buttons for:
+  - Sum
+  - Subtract
+  - Multiply
+  - Divide
+- A Clear button to reset inputs and output  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Swift  
+- **Framework:** UIKit  
+- **IDE:** Xcode  
+- **Layout:** Auto Layout  
+
+---
+
+## 🚀 How to Use
+
+1. Enter values in **First Number** and **Second Number** fields.
+2. Tap any operation button:
+   - **Sum**
+   - **Subtract**
+   - **Multiply**
+   - **Divide**
+3. The calculated result is displayed instantly.
+4. Tap **Clear** to reset everything.
 
 ---
 
@@ -20,7 +65,7 @@
 ## 👨‍💻 Author
 
 **Vinay Mothkula**  
-Backend Software Engineer | iOS & Cloud Enthusiast  
+Mentored and guided by Shobhakar Tiwari
 
 ---
 
