@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84CD4E652F1CB9AD00D47735 /* RegisterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CD4E7B2F1CB9AF00D47735 /* RegisterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CD4E852F1CB9AF00D47735 /* RegisterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4E652F1CB9AD00D47735 /* CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4E7B2F1CB9AF00D47735 /* CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4E852F1CB9AF00D47735 /* CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "RegisterApp" target */ = {
+		84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "CalculatorApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 84CD4E642F1CB9AD00D47735 /* RegisterApp */;
+			target = 84CD4E642F1CB9AD00D47735 /* CalculatorApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		84CD4E672F1CB9AD00D47735 /* RegisterApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "RegisterApp" target */,
+				84CD4E8D2F1CB9AF00D47735 /* Exceptions for "RegisterApp" folder in "CalculatorApp" target */,
 			);
 			path = RegisterApp;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		84CD4E662F1CB9AD00D47735 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84CD4E652F1CB9AD00D47735 /* RegisterApp.app */,
-				84CD4E7B2F1CB9AF00D47735 /* RegisterAppTests.xctest */,
-				84CD4E852F1CB9AF00D47735 /* RegisterAppUITests.xctest */,
+				84CD4E652F1CB9AD00D47735 /* CalculatorApp.app */,
+				84CD4E7B2F1CB9AF00D47735 /* CalculatorAppTests.xctest */,
+				84CD4E852F1CB9AF00D47735 /* CalculatorAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84CD4E642F1CB9AD00D47735 /* RegisterApp */ = {
+		84CD4E642F1CB9AD00D47735 /* CalculatorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E8E2F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterApp" */;
+			buildConfigurationList = 84CD4E8E2F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorApp" */;
 			buildPhases = (
 				84CD4E612F1CB9AD00D47735 /* Sources */,
 				84CD4E622F1CB9AD00D47735 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				84CD4E672F1CB9AD00D47735 /* RegisterApp */,
 			);
-			name = RegisterApp;
+			name = CalculatorApp;
 			packageProductDependencies = (
 			);
 			productName = RegisterApp;
-			productReference = 84CD4E652F1CB9AD00D47735 /* RegisterApp.app */;
+			productReference = 84CD4E652F1CB9AD00D47735 /* CalculatorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84CD4E7A2F1CB9AF00D47735 /* RegisterAppTests */ = {
+		84CD4E7A2F1CB9AF00D47735 /* CalculatorAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E932F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterAppTests" */;
+			buildConfigurationList = 84CD4E932F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorAppTests" */;
 			buildPhases = (
 				84CD4E772F1CB9AF00D47735 /* Sources */,
 				84CD4E782F1CB9AF00D47735 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				84CD4E7E2F1CB9AF00D47735 /* RegisterAppTests */,
 			);
-			name = RegisterAppTests;
+			name = CalculatorAppTests;
 			packageProductDependencies = (
 			);
 			productName = RegisterAppTests;
-			productReference = 84CD4E7B2F1CB9AF00D47735 /* RegisterAppTests.xctest */;
+			productReference = 84CD4E7B2F1CB9AF00D47735 /* CalculatorAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84CD4E842F1CB9AF00D47735 /* RegisterAppUITests */ = {
+		84CD4E842F1CB9AF00D47735 /* CalculatorAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E962F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterAppUITests" */;
+			buildConfigurationList = 84CD4E962F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorAppUITests" */;
 			buildPhases = (
 				84CD4E812F1CB9AF00D47735 /* Sources */,
 				84CD4E822F1CB9AF00D47735 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				84CD4E882F1CB9AF00D47735 /* RegisterAppUITests */,
 			);
-			name = RegisterAppUITests;
+			name = CalculatorAppUITests;
 			packageProductDependencies = (
 			);
 			productName = RegisterAppUITests;
-			productReference = 84CD4E852F1CB9AF00D47735 /* RegisterAppUITests.xctest */;
+			productReference = 84CD4E852F1CB9AF00D47735 /* CalculatorAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84CD4E602F1CB9AD00D47735 /* Build configuration list for PBXProject "RegisterApp" */;
+			buildConfigurationList = 84CD4E602F1CB9AD00D47735 /* Build configuration list for PBXProject "CalculatorApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84CD4E642F1CB9AD00D47735 /* RegisterApp */,
-				84CD4E7A2F1CB9AF00D47735 /* RegisterAppTests */,
-				84CD4E842F1CB9AF00D47735 /* RegisterAppUITests */,
+				84CD4E642F1CB9AD00D47735 /* CalculatorApp */,
+				84CD4E7A2F1CB9AF00D47735 /* CalculatorAppTests */,
+				84CD4E842F1CB9AF00D47735 /* CalculatorAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		84CD4E7D2F1CB9AF00D47735 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84CD4E642F1CB9AD00D47735 /* RegisterApp */;
+			target = 84CD4E642F1CB9AD00D47735 /* CalculatorApp */;
 			targetProxy = 84CD4E7C2F1CB9AF00D47735 /* PBXContainerItemProxy */;
 		};
 		84CD4E872F1CB9AF00D47735 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84CD4E642F1CB9AD00D47735 /* RegisterApp */;
+			target = 84CD4E642F1CB9AD00D47735 /* CalculatorApp */;
 			targetProxy = 84CD4E862F1CB9AF00D47735 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RegisterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorApp";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RegisterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorApp";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84CD4E602F1CB9AD00D47735 /* Build configuration list for PBXProject "RegisterApp" */ = {
+		84CD4E602F1CB9AD00D47735 /* Build configuration list for PBXProject "CalculatorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E912F1CB9AF00D47735 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E8E2F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterApp" */ = {
+		84CD4E8E2F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E8F2F1CB9AF00D47735 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E932F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterAppTests" */ = {
+		84CD4E932F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E942F1CB9AF00D47735 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E962F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "RegisterAppUITests" */ = {
+		84CD4E962F1CB9AF00D47735 /* Build configuration list for PBXNativeTarget "CalculatorAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E972F1CB9AF00D47735 /* Debug */,
