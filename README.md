@@ -44,22 +44,7 @@ The application allows users to input two integers and calculate their sum insta
 
 ---
 
-## 📸 Screenshots
-<p align="center">
-  <img src="screenshot.png" width="300" alt="App Screenshot">
-</p>
+## 📸 Demo
+![Simulator Screen Recording - iPhone 17 Pro - 2026-01-19 at 15 00 33](https://github.com/user-attachments/assets/a2f0b753-7370-4880-a5d1-7d4b873b57b4)
 
----
 
-## 🧠 Core Logic Preview
-The app ensures data integrity using optional binding to validate text fields:
-
-```swift
-@IBAction func addNumbersTapped(_ sender: UIButton) {
-    guard let firstNum = Int(firstTextField.text ?? ""),
-          let secondNum = Int(secondTextField.text ?? "") else {
-        resultLabel.text = "Error: Please enter valid integers."
-        return
-    }
-    resultLabel.text = "Sum: \(firstNum + secondNum)"
-}
